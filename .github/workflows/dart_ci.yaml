@@ -37,5 +37,10 @@ jobs:
     - uses: actions/checkout@v2
     - name: install dependencies
       run: pub get
-    - name: test
-      run: pub run test ./
+    - name: run test
+      run: pub run test . --coverage=coverage
+    - name: coverage
+      run: pub run coverage:format_coverage --lcov --packages=.packages --in coverage --out lcov.info
+    - uses: codecov/codecov-action@v1
+      with:
+        file: lcov.info
