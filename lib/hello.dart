@@ -1,1 +1,1 @@
-String hello(String name) => 'hello $name';
+String hello(final String name) => 'hello $name';
