@@ -1,7 +1,6 @@
 name: dart_boilerplate
 version: 0.0.1
 description: template repository for Dart project
-author: Naoki Shimizu
 homepage: https://github.com/sensuikan1973/dart-boilerplate
 
 environment:
