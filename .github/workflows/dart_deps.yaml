@@ -7,7 +7,7 @@ on:
     - cron: '0 1 * * 5' # every Friday, 01:00 (UTC)
 
 jobs:
-  update_dependencies:
+  upgrade_dart_dependencies:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
