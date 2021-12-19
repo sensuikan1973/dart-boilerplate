@@ -4,7 +4,7 @@ description: template repository for Dart project
 homepage: https://github.com/sensuikan1973/dart-boilerplate
 
 environment:
-  sdk: ">=2.15.0-0 <3.0.0" # See: https://dart.dev/null-safety#enable-null-safety
+  sdk: ">=2.15.1 <3.0.0" # See: https://dart.dev/null-safety#enable-null-safety
 
 dev_dependencies:
   analyzer: ^3.0.0
