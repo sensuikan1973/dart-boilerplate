@@ -37,6 +37,7 @@ jobs:
       run: dart analyze --fatal-infos --fatal-warnings .
 
   test:
+    needs: [format, analyze]
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
