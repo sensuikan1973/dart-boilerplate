@@ -4,4 +4,4 @@ GitHub Actions:
   - .github/scripts/**/*
   - .github/dependabot.yml
   - .github/labeler.yml
-  - .typos_config.toml
+  - .github/.typos_config.toml
