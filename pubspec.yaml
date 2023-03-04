@@ -9,7 +9,7 @@ issue_tracker: https://github.com/sensuikan1973/dart-boilerplate/issues
 version: 0.0.1
 
 environment:
-  sdk: ">=2.19.2 <4.0.0" # See: https://dart.dev/null-safety#enable-null-safety
+  sdk: ">=2.19.3 <4.0.0" # See: https://dart.dev/null-safety#enable-null-safety
 
 dev_dependencies:
   analyzer: ^5.7.1
