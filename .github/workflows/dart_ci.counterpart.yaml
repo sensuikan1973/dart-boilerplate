@@ -23,18 +23,18 @@ jobs:
   dart_format:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - run: .github/scripts/do_nothing_on_counterpart_workflow.sh
 
   dart_analyze:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - run: .github/scripts/do_nothing_on_counterpart_workflow.sh
 
   dart_test:
     needs: [dart_format, dart_analyze]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - run: .github/scripts/do_nothing_on_counterpart_workflow.sh
