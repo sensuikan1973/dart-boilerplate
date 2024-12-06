@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: dart-lang/setup-dart@v1
-      - run: dart pub upgrade && dart pub upgrade --major-versions
+      - run: dart pub upgrade --major-versions --tighen
 
       # See: https://github.com/peter-evans/create-pull-request/tree/master#reference-example
       - name: create PR
