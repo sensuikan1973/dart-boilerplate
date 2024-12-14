@@ -1,0 +1,26 @@
+# ---
+# name: API Document
+
+# on:
+#   push:
+#     branches: [main]
+#     paths:
+#       - '**.dart'
+#       - 'pubspec.*'
+#       - 'README.md'
+#       - '.github/workflows/api_doc.yaml'
+
+# jobs:
+#   upload_dart_docs:
+#     runs-on: ubuntu-latest
+#     timeout-minutes: 10
+#     steps:
+#       - uses: actions/checkout@v4
+#       - uses: dart-lang/setup-dart@v1
+#       - name: generate dart docs
+#         run: dart doc . --validate-links
+#       - name: upload to GitHub Pages
+#         uses: peaceiris/actions-gh-pages@v4
+#         with:
+#           github_token: ${{ secrets.GITHUB_TOKEN }}
+#           publish_dir: ./doc/api
