@@ -22,7 +22,7 @@ jobs:
       - uses: dart-lang/setup-dart@v1
 
       - name: inject current version
-        run: echo "CURRENT_VERSION=$(dart pub deps --style compact | grep "changeme" | grep -Eo '[0-9]{1,}.[0-9]{1,}.[0-9]{1,}')" >> $GITHUB_ENV
+        run: echo "CURRENT_VERSION=$(dart pub deps --style compact | grep "dart-boilerplate" | grep -Eo '[0-9]{1,}.[0-9]{1,}.[0-9]{1,}')" >> $GITHUB_ENV
 
       - uses: softprops/action-gh-release@v2
         env:
