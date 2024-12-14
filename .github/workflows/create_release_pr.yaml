@@ -14,7 +14,7 @@ on:
           - major
           - breaking
         required: true
-      #  I don't describe libedax4dart CHANGELOG with large text and I decided to implement simple workflow.
+      #  I don't describe CHANGELOG with large text and I decided to implement simple workflow.
       changelog_description:
         type: string
         description: 'description for CHANGELOG'
