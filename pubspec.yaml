@@ -6,7 +6,7 @@ homepage: https://github.com/sensuikan1973/dart-boilerplate
 repository: https://github.com/sensuikan1973/dart-boilerplate
 issue_tracker: https://github.com/sensuikan1973/dart-boilerplate/issues
 
-version: 0.0.1
+version: 0.0.2
 
 environment:
   sdk: ">=3.5.2 <4.0.0" # See: https://dart.dev/null-safety#enable-null-safety
