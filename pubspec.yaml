@@ -12,7 +12,7 @@ environment:
   sdk: ">=3.5.2 <4.0.0" # See: https://dart.dev/null-safety#enable-null-safety
 
 dev_dependencies:
-  analyzer: ^7.0.0
+  analyzer: ^7.1.0
   coverage: ^1.11.1 # See: https://github.com/dart-lang/test/issues/1265
   pedantic_sensuikan1973: ^5.8.1
   test: ^1.25.12
