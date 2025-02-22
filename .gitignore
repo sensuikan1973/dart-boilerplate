@@ -20,9 +20,6 @@ doc/api/
 *.js.deps
 *.js.map
 
-# Editor
-.vscode/
-
 # Mac
 .DS_Store
 
