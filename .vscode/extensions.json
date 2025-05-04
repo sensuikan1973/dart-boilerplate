@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "dart-code.dart-code"
+        "dart-code.dart-code",
+        "github.vscode-github-actions"
     ]
 }
