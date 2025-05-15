@@ -3,7 +3,7 @@ import 'package:test/test.dart';
 
 void main() {
   test('hello', () {
-    const name = 'bob';
-    expect(hello(name), 'hello bob');
+    final sample = Sample();
+    expect(sample.hello('bob'), 'hello bob');
   });
 }
