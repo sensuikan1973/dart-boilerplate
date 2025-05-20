@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  check_typos:
+  typos:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
