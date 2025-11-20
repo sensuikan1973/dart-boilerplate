@@ -11,7 +11,7 @@ jobs:
   dart_format:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - uses: dart-lang/setup-dart@v1
       - name: install dependencies
         run: dart pub get
@@ -21,7 +21,7 @@ jobs:
   dart_analyze:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - uses: dart-lang/setup-dart@v1
       - name: install dependencies
         run: dart pub get
@@ -32,7 +32,7 @@ jobs:
     needs: [dart_format, dart_analyze]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - uses: dart-lang/setup-dart@v1
       - name: install dependencies
         run: dart pub get
