@@ -11,10 +11,10 @@ environment:
   sdk: ">=3.8.0 <4.0.0"
 
 dependencies:
-  meta: ^1.18.0
+  meta: ^1.18.1
 
 dev_dependencies:
-  analyzer: ^10.0.1
+  analyzer: ^10.0.2
   coverage: ^1.15.0 # See: https://github.com/dart-lang/test/issues/1265
   pedantic_sensuikan1973: ^5.16.0
   test: ^1.29.0
