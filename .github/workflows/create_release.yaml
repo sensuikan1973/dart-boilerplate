@@ -24,7 +24,7 @@ jobs:
       - name: inject current version
         run: echo "CURRENT_VERSION=$(dart pub deps --style compact | grep "dart-boilerplate" | grep -Eo '[0-9]{1,}.[0-9]{1,}.[0-9]{1,}')" >> $GITHUB_ENV
 
-      - uses: softprops/action-gh-release@v2
+      - uses: softprops/action-gh-release@v3
         env:
           GITHUB_TOKEN: ${{ secrets.PAT }}
         with:
